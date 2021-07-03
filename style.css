@@ -50,7 +50,7 @@ button {
     border-radius: 5px;
     display: grid;
     grid-template-columns: repeat(3, 300px);
-    grid-auto-rows: 450px;
+    grid-auto-rows: minmax(450px, auto);
 }
 
 .card {
